@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s ease-in-out
+}
+
+a:hover {
+    transform: translate(2px);
+    color: #444;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    background-color: #fff;
+    box-shadow: 2px 1px 10px #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+
+}
+.header-img {
+    width: 120px;
+    height: 80px;
+    margin-left: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+.main-box {
+    display: inline-block;
+    background-color: #000;
+    height: fit-content;
+    text-align: center;
+    margin-left: auto;
+    width: 500px;  
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    }
+.main-title {
+    color: #FFF;
+    font-weight: 300;
+}
+main{
+    padding: 0;
+    margin: 0;
+    height: 80%;
+}
+.main-banner {
+    display: flex;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    background-image: url("/assets/newspaper.png");
+    padding-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    height: 60%;
+    border-top: 1px solid #000;
+    margin-left: 15px;
+
+}
+.main-article {
+    margin-right: 100px;
+    width: 85%;
+    text-align: justify;
+    padding-bottom: 70px;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-left: 1px solid #000;
+    width: 20%;
+    
+}
+.item {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.none-decoration {
+    text-decoration: none;
+}
+address {
+    margin-left: 15px;
+}
+footer{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+
+.img-footer {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.article-title {
+    margin-bottom: 3px;
+    margin-top: 15px;
+}
+
+article {
+    font-weight: 400;
+}
